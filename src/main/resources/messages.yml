@@ -1,0 +1,12 @@
+messages:
+  plugin_disabled: "&cVault не найден! Плагин отключен&7."
+  config_reloaded: "&6Киллер &7» &aКонфигурация плагина перезагружена&7."
+  invalid_amount: "&6Киллер &7» &cНеверная сумма&7."
+  player_not_found: "&6Киллер &7» &cИгрок не найден&7."
+  insufficient_funds: "&6Киллер &7» &cНедостаточно средств&7."
+  bounty_set: "&6Киллер &7» &fИгрок &6{player} &fназначил награду &6{amount} &fза убийство игрока &6{target}\n&6Киллер &7» &fОбщая награда &6{amount}"
+  bounty_received: "&6Киллер &7» &fВы убили игрока &6{deceased} &fи получили &6{reward}"
+  bounty_broadcast: "&6Киллер &7» &fИгрок &6{killer} &fубил игрока &6{deceased} &fи получил &6{reward}"
+  bounty_exists: "&6Киллер &7» &cНа игрока &6{target} &cуже назначена награда&7."
+  minimum_bounty_amount: "&6Киллер &7» &cМинимальная сумма заказа убийства составляет {amount}&7."
+  maximum_bounty_amount: "&6Киллер &7» &cМаксимальная сумма заказа убийства составляет {amount}&7."

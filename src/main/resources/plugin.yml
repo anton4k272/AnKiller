@@ -1,0 +1,21 @@
+name: AnKiller
+version: 1.0
+main: com.github.AnKiller
+api-version: 1.16
+author: anton4k272
+commands:
+  killer:
+    description: Откройте меню убийц или установите награду за игрока
+    usage: §6Киллер §7» §fИспользуйте §6/killer
+    permission: ankiller.use
+  ankiller:
+    description: Команды администратора для плагина AnKiller
+    usage: /ankiller reload
+    permission: ankiller.admin
+permissions:
+  ankiller.use:
+    description: Разрешить доступ к плагину killer
+    default: op
+  ankiller.admin:
+    description: Разрешить доступ к командам администратора плагина killer
+    default: op

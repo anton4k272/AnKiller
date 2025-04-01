@@ -1,0 +1,32 @@
+menu:
+  title: "&fꈁꀀꈂꍁꈂꀁ&0ꈃꄓ"
+  size: 54
+  items:
+    barrier:
+      slot: 4
+      material: "STRUCTURE_VOID"
+      name: "§6 "
+      lore:
+        - "§f Закажи убийство игрока!"
+        - "§6   /killer (Игрок) (Сумма)"
+        - "§f"
+        - "§7Игрок, который убьет"
+        - "§7Заказного игрока"
+        - "§7Получит всю вашу сумму!"
+        - "§f"
+      customModelData: 10001
+    bounty:
+      slots: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+      material: "STRUCTURE_VOID"
+      name: "§0"
+      lore:
+        - "      &c&lРазыскивается: &7{player}  &c&l!         "
+        - ""
+        - ""
+        - "     &aНаграда за голову: "
+        - "       &6{reward} &8 &8(&7{orderer}&8) "
+        - "§f"
+      customModelData: 10001
+
+minimum-bounty-amount: 10000
+maximum-bounty-amount: 10000000
